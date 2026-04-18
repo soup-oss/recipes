@@ -38,7 +38,7 @@ Update the index in `topics/` to provide a navigable map of the related concepts
 ---
 out_of_scope:
   - feature: "Automated Web Crawling"
-    reason: "Requires user-provided sources; the agent does not autonomously browse the web without intent."
+    reason: "Requires user-provided sources; the agent does not autonomously browse the web without explicit instruction."
   - feature: "Content Translation"
     reason: "The skill is for organization and synthesis, not linguistic conversion."
 ---

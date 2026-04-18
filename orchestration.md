@@ -28,11 +28,11 @@ Define the "Rules of Engagement" in `triggers/`. How do agents talk to each othe
 ### Phase C: Assignment
 Populate `tasks/pending` with work items. Assign them to specific agents based on their mandates.
 ### Phase D: Coordination
-Monitor the `_chat` and `_journal`. Move completed items from `pending` to `done`.
+Monitor the shared communication channel and history log. Move completed items from `pending` to `done`.
 
 ## 5. Operational Guidelines
 *   **Clear Mandates**: Every agent in `team/` must have a unique regex or role to prevent overlap and conflict.
-*   **Reactive Logic**: Triggers should be simple and deterministic (If X then Y).
+*   **Reactive Logic**: Triggers should be simple and rigorous (If X then Y).
 *   **Task Transparency**: No agent should work on something that isn't in the `tasks/` directory.
 
 ---

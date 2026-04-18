@@ -8,7 +8,7 @@ version: "1.0.0"
 # Skill: Use Case Driven
 
 ## 1. The Core Philosophy
-A feature is not a requirement; a **Use Case** is. This skill enforces a deterministic boundary around what a system should (and should not) do. It prevents scope creep by making "Out of Scope" a mandatory field.
+A feature is not a requirement; a **Use Case** is. This skill enforces a fixed boundary around what a system should (and should not) do. It prevents scope creep by making "Out of Scope" a mandatory field.
 
 ## 2. Pre-flight Check (Prerequisites)
 The agent must have a list of features or high-level goals. If the request is too vague, the agent must interview the user to define the actors involved.

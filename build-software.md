@@ -34,7 +34,7 @@ Build the logic in `code/`. Every significant block of code must link back to it
 ## 5. Operational Guidelines
 *   **Referential Safety**: All implementation files in `code/` should be linked from their respective `specs/`.
 *   **Why over What**: `decisions/` must focus on the trade-offs, not just the final choice.
-*   **Incremental Commits**: Every write must include an `intent` string that references the goal or spec being addressed.
+*   **Incremental Commits**: Every write must include a reasoning string that references the goal or spec being addressed.
 
 ---
 out_of_scope:
